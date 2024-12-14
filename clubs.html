@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>部活動紹介</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: #f0f0f0;
+      }
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .club {
+        margin: 20px 0;
+      }
+      .club img {
+        width: 120px;
+        border-radius: 50%;
+        margin-top: 10px;
+      }
+      .club button {
+        padding: 10px 20px;
+        background: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .club button:hover {
+        background: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>部活動紹介</h1>
+      <div class="club">
+        <h2>野球部</h2>
+        <img src="baseball.png" alt="野球部" />
+        <p>野球が大好きな皆さんの集まりです！</p>
+        <button onclick="location.href='baseball.html'">詳しく見る</button>
+      </div>
+      <div class="club">
+        <h2>サッカー部</h2>
+        <img src="soccer.png" alt="サッカー部" />
+        <p>サッカーで盛り上がろう！</p>
+        <button onclick="location.href='soccer.html'">詳しく見る</button>
+      </div>
+      <!-- 他の部活動を追加するには、ここにさらに<div class="club">...</div>ブロックを追加します -->
+    </div>
+  </body>
+</html>
